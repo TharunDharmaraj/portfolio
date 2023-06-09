@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakthi - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-4G34JKCPJW"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-4G34JKCPJW");
+  </script>
+  <body>
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/image.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Sakthi Chandramohan</h1>
+
+            <p class="title">
+              Artificial Intelligence and Data Science Engineer
+            </p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:kishorchandramohan@gmail.com"
+                  class="contact-link"
+                  >sakthicsks7@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a class="contact-link">+91 944-248-4870</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">Jan 10, 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Dindigul, TamilNadu, India.</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/sakthi-c-569a9020a"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href=" https://wa.me/+919442484870"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              This is Sakthi. I am pursuing my final year in the field of
+              artificial intelligence and Data science at PSNA college of
+              Engineering and Technology, Dindigul.
+            </p>
+
+            <p>
+              I am experience graduate in the domains of Artificial
+              Intelligence, Machine Learning, Business Analysis and Data
+              Analysis.
+            </p>
+            <p>
+              <u style="color: gold"
+                ><a
+                  href="https://github.com/cihtkas10"
+                  target="_blank"
+                  style="color: gold"
+                  >Click here for my github repos.</a
+                ></u
+              >
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Prediction Using ML Algorithms
+                  </h4>
+
+                  <p class="service-item-text">Completed Projects: 15+</p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Data Visualization - Tableau
+                  </h4>
+
+                  <p class="service-item-text">Business Analysis</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Video Editing icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Analysis - Python</h4>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Deep Learning - Neural Networks
+                  </h4>
+
+                  <p class="service-item-text"></p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        --></article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">PSNACET - B.Texh / AI&DS</h4>
+
+                <span>2020 — 2024*</span>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  St Joseph - Girls High School
+                </h4>
+                <span>2018 — 2020</span>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Communication Skills</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Machine Learning and Data Science</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Analytical And Problem Solving Skills</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Coding Skills - Python</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Video Editing"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1zE4BNZKCJ8sFoGIB1c1WwMp8PwijrM6b/view?usp=sharing"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/fakeNumberPlate.jpeg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Fake Number Plate Detection in Tollgate using CNN
+                  </h3>
+
+                  <p class="project-category">Machine Learning</p>
+                </a>
+              </li>
+              <li class="project-item active">
+                <a
+                  href="https://drive.google.com/file/d/1aTIKHFlyZEFh39oIxoCyJyJ1o6KhghRY/view?usp=sharing"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/heartDisease.jpeg"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Cardio Vascular Disease Prediction
+                  </h3>
+
+                  <p class="project-category">Machine Learning</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Youtube promotion"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1rfAguqhrU9WOx3bHdHzNcXzElaBgMZ6v/view?usp=sharing"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/3.jpeg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Insta Reels</h3>
+
+                  <p class="project-category">Video Editing</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Website Promotion"
+              >
+                <a
+                  href="https://drive.google.com/drive/folders/1gEkHywid_N8rQFNw1I_IQjPtet8z0IQg"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/4.jpeg"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Insta Reels</h3>
+
+                  <p class="project-category">Video Editing</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Youtube promotion"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1gKxHZmRRZBY6QmhrT2pVbIua1y6eeAR3/view?usp=sharing"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/5.jpeg"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Insta Reels</h3>
+
+                  <p class="project-category">Video Editing</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Youtube promotion"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1QphqhYQDyg3snQwCWp7kfJkY2iWlGhri/view?usp=sharing"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/happy clients.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Happy clients</h3>
+
+                  <p class="project-category">Overall</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Video Editing"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/yt1.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Youtube Promotion - 01</h3>
+
+                  <p class="project-category">Youtube Promotion</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Video Editing"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/YouTube Promotion Order 27 Done.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Youtube Promotion - 27</h3>
+
+                  <p class="project-category">Youtube Promotion</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Video Editing"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/YouTube Promotion Order 62 Done.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Youtube Promotion - 62</h3>
+
+                  <p class="project-category">Youtube Promotion</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Video Editing"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/YouTube Promotion Order 87 Done.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Youtube Promotion - 87</h3>
+
+                  <p class="project-category">Youtube Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Video Editing"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/YouTube Promotion Order 99 Done.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Youtube Promotion - 99</h3>
+
+                  <p class="project-category">Youtube Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Video Editing"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/YouTube promotion order 118 done.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Youtube Promotion - 118</h3>
+
+                  <p class="project-category">Youtube Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Video Editing"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="assets/images/YouTube promotion order 125 done.jpg"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Youtube Promotion - 125</h3>
+
+                  <p class="project-category">Youtube Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Video Editing"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="assets/images/YouTube promotion order 126 done.jpg"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Youtube Promotion - 126</h3>
+
+                  <p class="project-category">Youtube Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Website Promotion"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/wt9.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Website Promotion - 09</h3>
+
+                  <p class="project-category">Website Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Website Promotion"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/wt11.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Website Promotion - 11</h3>
+
+                  <p class="project-category">Website Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Website Promotion"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/wt19.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Website Promotion - 19</h3>
+
+                  <p class="project-category">Website Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Website Promotion"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/wt22.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Website Promotion - 22</h3>
+
+                  <p class="project-category">Website Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Website Promotion"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/wt27.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Website Promotion - 27</h3>
+
+                  <p class="project-category">Website Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Website Promotion"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/wt30.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Website Promotion - 30</h3>
+
+                  <p class="project-category">Website Promotion</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Website Promotion"
+              >
+                <a>
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/wt33.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Website Promotion - 33</h3>
+
+                  <p class="project-category">Website Promotion</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
